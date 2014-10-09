@@ -1,0 +1,18 @@
+apply plugin: 'com.android.application'
+
+android {
+    buildToolsVersion "20.0.0"
+    compileSdkVersion 19
+
+    defaultConfig {
+        applicationId "io.onthego.apps.aridemo"
+        minSdkVersion 15
+        targetSdkVersion 19
+        versionCode 1
+        versionName "1.0"
+    }
+}
+
+dependencies {
+    compile "io.onthego:ari-android:1.0.0"
+}
