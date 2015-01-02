@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    buildToolsVersion "20.0.0"
+    buildToolsVersion "21.1.1"
     compileSdkVersion 19
 
     defaultConfig {
@@ -20,5 +20,5 @@ android {
 }
 
 dependencies {
-    compile "io.onthego:ari-android:1.2.0"
+    compile "io.onthego:ari-android:1.2.1"
 }

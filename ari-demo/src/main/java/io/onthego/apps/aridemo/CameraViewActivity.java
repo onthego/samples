@@ -46,7 +46,7 @@ public class CameraViewActivity extends Activity
         final SurfaceView surfaceView = (SurfaceView) findViewById(R.id.surfaceView);
 
         try {
-            mAri = ActiveAri.getInstance(getString(R.string.ari_api_key), this)
+            mAri = ActiveAri.getInstance(getString(R.string.ari_license_key), this)
                             .addListeners(this, handSignEventView, handMotionEventView)
                             .setPreviewDisplay(surfaceView)
                             .addErrorCallback(this);
