@@ -1,0 +1,26 @@
+apply plugin: 'com.android.application'
+
+android {
+    buildToolsVersion '22.0.1'
+    compileSdkVersion 22
+
+    defaultConfig {
+        applicationId 'io.onthego.apps.aritutorial'
+        minSdkVersion 15
+        targetSdkVersion 21
+        versionCode 102
+        versionName '1.2'
+    }
+
+    buildTypes {
+        debug {
+            applicationIdSuffix '.debug'
+        }
+    }
+}
+
+dependencies {
+    compile 'io.onthego:ari-android:1.6.0'
+    compile 'com.google.guava:guava:18.0'
+    compile 'com.google.code.findbugs:jsr305:2.0.3'
+}

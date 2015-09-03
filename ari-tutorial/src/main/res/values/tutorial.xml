@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tutorial_title">Ari Tutorial</string>
+
+    <string name="open_hand_instruction">Fit your right open hand in image</string>
+    <string name="closed_hand_instruction">Fit right fist in image</string>
+    <string name="v_sign_instruction">Fit V sign in image</string>
+    <string name="left_swipe_instruction">Swipe left</string>
+    <string name="right_swipe_instruction">Swipe right</string>
+    <string name="tutorial_good">Good!</string>
+    <string name="tutorial_exit">Got it!</string>
+    <string name="tutorial_try_again">Try Again</string>
+    <string name="camera_open_error">Could not open the camera. Please close any other apps using the camera and try again.</string>
+
+    <dimen name="tutorial_title_size">30sp</dimen>
+    <dimen name="tutorial_font_size">25sp</dimen>
+
+</resources>

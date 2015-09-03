@@ -1,0 +1,4 @@
+<!-- For more information about voice trigger, check out: https://developers.google.com/glass/develop/gdk/starting-glassware -->
+<trigger command="TEACH_ME_ABOUT">
+    <constraints camera="true" />
+</trigger>
