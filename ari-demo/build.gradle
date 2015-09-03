@@ -8,8 +8,8 @@ android {
         applicationId "io.onthego.apps.aridemo"
         minSdkVersion 15
         targetSdkVersion 19
-        versionCode 1
-        versionName "1.0"
+        versionCode 104
+        versionName "1.4"
     }
 
     buildTypes {
