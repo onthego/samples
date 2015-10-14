@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    buildToolsVersion '22.0.1'
-    compileSdkVersion 22
+    buildToolsVersion '23.0.1'
+    compileSdkVersion 23
 
     defaultConfig {
         applicationId 'io.onthego.apps.aritutorial'
