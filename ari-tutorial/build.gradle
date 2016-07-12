@@ -20,7 +20,7 @@ android {
 }
 
 dependencies {
-    compile 'io.onthego:ari-android:1.7.1'
+    compile 'io.onthego:ari-android:1.7.2'
     compile 'com.google.guava:guava:18.0'
     compile 'com.google.code.findbugs:jsr305:2.0.3'
 }

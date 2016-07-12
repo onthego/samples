@@ -20,5 +20,5 @@ android {
 }
 
 dependencies {
-    compile "io.onthego:ari-android:1.7.1"
+    compile "io.onthego:ari-android:1.7.2"
 }
